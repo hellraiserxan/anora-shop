@@ -32,3 +32,11 @@ build/
 ### VS Code ###
 .vscode/
 .mvn/
+
+.env
+.env.*
+
+auth-data/
+
+application-*.properties
+!application.properties
