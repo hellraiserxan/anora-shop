@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/af03d893-c5be-42cf-a7b2-686e57bf1445)
 
 
-`sequenceDiagram
+    sequenceDiagram
     actor User as Пользователь
     participant Nginx as Nginx (Reverse-proxy)
     participant UI as UI (React)
@@ -37,7 +37,7 @@
                 UI->>User: 🟢 Редирект в / 
             end
         end
-     end`
+     end
 
 
 
