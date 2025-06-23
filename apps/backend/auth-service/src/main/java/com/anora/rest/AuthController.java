@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api/v1/auth")
 @AllArgsConstructor
 public class AuthController {
     @PostMapping("/register")
